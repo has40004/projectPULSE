@@ -1,0 +1,109 @@
+@media screen and (max-width: 570px) {
+    .container {
+        max-width: 570px;
+        padding: 10px 10px ;
+    }
+    .header {
+        max-width: 570px;
+        &__official {
+            display: none;
+        }
+        .header__logo {
+            width: 50%;
+        }
+        .header__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 127px;
+            font-size: 11px;
+        }
+        
+    }
+    .promo {
+        min-height: 305px;
+        background: url(../../img/main.jpg) 35% center/cover no-repeat;
+        .promo__wrapper {
+            align-items: center;
+        }
+        .promo__header {
+            text-align: center;
+            font-size: 35px;  
+        }
+        .promo__subheader {
+            text-align: center;
+            font-size: 25px; 
+            margin-top: 10px;
+        }
+        .promo__icons {
+            width: 100%;
+            margin-top: 80px;
+        }
+        .promo__icon {
+            // width: 100%;
+            font-size: 10px;
+            // img {
+            //     margin-bottom: 30px;
+            // }
+
+        }
+        .button_main{
+            width: 192px;
+            height: 38px;
+            font-size: 10px;
+
+        }
+        .promo__link {
+            font-size: 11px;
+        }
+        
+
+
+    }
+    .advantage {
+        padding: 40px 0 20px 0;
+        .title {
+            font-size: 24px;
+            
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: -10px;
+        }
+        &__icon {
+            margin-top: 40px;
+            img {
+                margin-top: 40px;
+            }
+            width: 100%;
+        }
+    }
+    .consultation {
+        max-height: 400px;
+        padding: 40px 0;
+        .title {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 70px;
+
+        }
+    }
+    .feed-form {
+        margin: 36px auto;
+    }
+    .carousel {
+        &__inner {
+            width: 100%; 
+            img {
+                width: 100%;
+            }
+        }
+    }
+    
+}
