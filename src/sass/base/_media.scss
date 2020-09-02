@@ -104,6 +104,48 @@
                 width: 100%;
             }
         }
+        .slick-dots {
+            margin-top: 30px;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -25px ;
+            
+            li {
+                border: 2px black solid;
+                width: 30px;
+                height: 1px;
+                margin-right: 20px;
+                &:hover {
+                box-shadow: 3px 3px 20px $main-color;
+            }
+            }
+            button {
+                display: none;  
+            }
+        }
+    }
+    .catalog {
+        .title {
+            font-size: 18px;
+        }
+    &__tabs {
+        margin-top: 40px;
+    
+    }
+    &__tab {
+        font-size: 10px;
+        height: 30px;
+        line-height: 28px;
+        }
+    }
+    &__content {
+        max-width:  570px;
+
+    }
+    .catalog-item {
+        margin: 0 auto 20px ;
     }
     
 }
