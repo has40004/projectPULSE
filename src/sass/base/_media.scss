@@ -190,6 +190,18 @@
             padding: 20px 0px 0px 0px ;
         }
     }
+    .overlay {
+        max-width: 570px;
+    }
+    .modal {
+        width: 90%;
+        padding: 30px 10px 10px 10px;
+        border-radius: 20px;
+        &__close {
+            right: -10px;
+            top: -40px;
+        }
+    }
 
   
 }
