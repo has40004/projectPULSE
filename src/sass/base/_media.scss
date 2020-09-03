@@ -81,7 +81,7 @@
         }
     }
     .consultation {
-        max-height: 400px;
+        min-height: 400px;
         padding: 40px 0;
         .title {
             font-size: 20px;
@@ -199,7 +199,7 @@
         border-radius: 20px;
         &__close {
             right: -10px;
-            top: -40px;
+            top: -35px;
         }
     }
 
