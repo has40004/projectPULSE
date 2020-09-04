@@ -112,7 +112,7 @@
         }
         &__wrapper {
             display: flex;
-            width: calc(200% + 40px);
+            width: calc(200% + 80px);
         }
         &__content {
             width: 50%;
@@ -124,22 +124,27 @@
                 margin-right: 20px;
             }
         }
-        &__list {
+        &__list  {
             position: relative;
             width: 50%;
             margin-left: 20px;
             transform: translateX(0%);
-            padding-right: 20px;
+            // padding-right: 20px;
+            padding: 0 36px 0 0 ;
             transition: 0.5s all;
-            padding-left: 19px;
+            // padding-left: 0px;
             margin-bottom: 0px;
-            list-style-type: none;
+            ul {
+                list-style-type: none;
+            }
+            
             li {
                 position: relative;
                 color: #555555;
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;
+                margin-left: -20px;
                 &:before {
                     content: '' ;
                     position: absolute;
