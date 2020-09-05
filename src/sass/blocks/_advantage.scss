@@ -15,8 +15,20 @@
         img {
             display: block;
             margin: 0 auto;
-        
        }
+       &_animated {
+        animation-name: heartbeat;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+       }
+       &_mt20 {
+           margin-top: 20px;
+       }
+       
      
     }
     &__text {
