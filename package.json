@@ -24,6 +24,7 @@
     "not dead"
   ],
   "dependencies": {
-    "animate.css": "^4.1.0"
+    "animate.css": "^4.1.0",
+    "surge": "^0.21.6"
   }
 }
